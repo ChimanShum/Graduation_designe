@@ -4,7 +4,7 @@
 > This study proposes a data generation regression prediction model based on small data samples for predicting the performance of carbon dioxide adsorbents in direct air capture. The study employs a tabular variational autoencoder (TVAE) and a conditional tabular generative adversarial network (CTGAN) as the data generation framework, enhancing the training dataset with synthetic data to improve the model's generalization ability and prediction accuracy. Experimental results show that the model using generated data achieves a 9% to 12% reduction in prediction error compared to the model without generated data.
 > 
 <p align="center">
-<img src="image\label.png"/>
+<img src="image\1.png"/>
 </p>
 
 The upside is the theoretical process of the Tabular-VAE model, downside part is the theoretical process of the CTGAN(Conditional Tabular GAN), The rightside part is the predictive model training and testing process
