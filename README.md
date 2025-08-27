@@ -21,7 +21,7 @@ The upside is the theoretical process of the Tabular-VAE model, downside part is
 
 ## Data
 - Database：The dataset used in this study comprises physical and chemical properties of carbon dioxide adsorbents along with experimental conditions collected from the literature. The data includes information such as the adsorbent's specific surface area, pore volume, nitrogen atom content, proportion of amine functional groups, temperature, and partial pressure of carbon dioxide.
-![datalabel](image\README\label.png)
+<img src="image\README\label.png" width="200" />
 The data was from the [this](https://www.sciencedirect.com/science/article/pii/S2666546825000096#sec0015) article
 
 ## Result
