@@ -43,8 +43,9 @@ The data was from the [this](https://www.sciencedirect.com/science/article/pii/S
 |TVAE-RF|0.4320|0.3483|0.7511|
 |CTGAN-RF|0.4069|0.3247|0.7680|
 
-</p>
-- Package Installation
+</div>
+
+## Package Installation
 ```bash
 pip install -r requirements.txt
 pandas
