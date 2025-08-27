@@ -2,8 +2,11 @@
 
 ## Overview of the project
 > This study proposes a data generation regression prediction model based on small data samples for predicting the performance of carbon dioxide adsorbents in direct air capture. The study employs a tabular variational autoencoder (TVAE) and a conditional tabular generative adversarial network (CTGAN) as the data generation framework, enhancing the training dataset with synthetic data to improve the model's generalization ability and prediction accuracy. Experimental results show that the model using generated data achieves a 9% to 12% reduction in prediction error compared to the model without generated data.
+> 
+<p align="center">
+<img src="image\label.png"/>
+</p>
 
-![The process of Tabular-VAE and CTGAN](image\1.png)
 The upside is the theoretical process of the Tabular-VAE model, downside part is the theoretical process of the CTGAN(Conditional Tabular GAN), The rightside part is the predictive model training and testing process
 
 ## Background of the project
@@ -24,17 +27,23 @@ The data was from the [this](https://www.sciencedirect.com/science/article/pii/S
 ## Result
 ### The result of generating the data
 
-| Tabular-VAE| CT-GAN |
-|:---:|:---:|
-|![](image\README\rs1_1.png)|![](image\README\rs2_1.png)|
-|![](image\README\rs1_2.png)|![](image\README\rs2_2.png)|
+<p float="left", align="center">
+  <img src="image\README\rs1_1.png" width="200" />
+  <img src="image\README\rs1_2.png" width="200" />
+  <img src="image\README\rs2_1.png" width="200" />
+  <img src="image\README\rs2_2.png" width="200" />
+</p>
 
 ### The result of using the generate skill and without this skill
+<div align="center">
+
 |Model|MAE|MSE|R<sup>2</sup>|
 |:---:|:---:|:---:|:---:|
 |Random Forest|0.4504|0.4345|0.6895|
 |TVAE-RF|0.4320|0.3483|0.7511|
 |CTGAN-RF|0.4069|0.3247|0.7680|
+
+</p>
 - Package Installation
 ```bash
 pip install -r requirements.txt
